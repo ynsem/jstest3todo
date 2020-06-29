@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+  <body>
+    <h1 class="header">Список вопросов:</h1>
+    <form class="questionBlock" action="" method="POST">
+      <button class="button" type="submit" name="button">Отправить</button>
+    </form>
+
+    <template id="radioQuestion">
+      <fieldset class="radioQuestion">
+        <legend class="radio"></legend>
+        <ul>
+          <li>
+            <input type="radio" name="rad" id="radio1" value="var1">
+            <label class="radio1 answerRad" for="radio1"></label>
+          </li>
+          <li>
+            <input type="radio" name="rad" id="radio2" value="var2">
+            <label class="radio2 answerRad" for="radio2"></label>
+          </li>
+          <li>
+            <input type="radio" name="rad" id="radio3" value="var3">
+            <label class="radio3 answerRad" for="radio3"></label>
+          </li>
+        </ul>
+      </fieldset>
+    </template>
+
+    <template id="checkboxQuestion">
+      <fieldset class="checkboxQuestion">
+        <legend class="checkbox"></legend>
+        <ul>
+          <li>
+            <input type="checkbox" name="check" id="checkbox1" value="var1">
+            <label class="checkbox1 answerCheck" for="checkbox1">Ответ1</label>
+          </li>
+          <li>
+            <input type="checkbox" name="check" id="checkbox2" value="var1">
+            <label class="checkbox2 answerCheck" for="checkbox2">Ответ2</label>
+          </li>
+          <li>
+            <input type="checkbox" name="check" id="checkbox3" value="var1">
+            <label class="checkbox3 answerCheck" for="checkbox3">Ответ3</label>
+          </li>
+        </ul>
+      </fieldset>
+    </template>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

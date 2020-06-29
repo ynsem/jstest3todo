@@ -1,0 +1,25 @@
+{
+  "name": "jstest3todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynsem/jstest3todo.git"
+  },
+  "author": "ynsem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynsem/jstest3todo/issues"
+  },
+  "homepage": "https://github.com/ynsem/jstest3todo#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "prettier": "^2.0.5"
+  }
+}
